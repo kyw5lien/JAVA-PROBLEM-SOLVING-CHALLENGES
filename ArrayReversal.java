@@ -4,7 +4,7 @@
  */
 public class ArrayReversal{
 	public static void decrementingForLoopReverse(int[] array){
-		if(array.length !=0 && array.length !=1){
+		if(array.length > 2){
 			int aux = 0;
 			int j = 0;
 			for(int i=array.length-1; i>array.length/2; i--){
